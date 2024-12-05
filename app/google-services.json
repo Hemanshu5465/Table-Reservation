@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401542641906",
+    "project_id": "signup-login-realtime-ba3ed",
+    "storage_bucket": "signup-login-realtime-ba3ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401542641906:android:f3485503fa383cfcc7f86b",
+        "android_client_info": {
+          "package_name": "com.example.signuploginrealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd6Nq47KKKgK_gGJgjvF_cojrggA5_ZPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

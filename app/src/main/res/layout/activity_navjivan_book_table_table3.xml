@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navjivan_book_table"
+    android:background="#E2DFD2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="@color/toolbar"
+        app:logo="@drawable/outline_table_bar_24"
+        app:title="Dineout"
+        app:titleMarginStart="30dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/bookname3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#483C32"
+        android:textColorHint="#808080"
+        android:ems="10"
+        android:hint="  Enter your Name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:background="@drawable/levender_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <EditText
+        android:id="@+id/bookday3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textColorHint="#808080"
+        android:focusable="false"
+        android:paddingLeft="20dp"
+        android:hint="  Enter Day"
+        android:textColor="#483C32"
+        android:inputType="text"
+        android:background="@drawable/levender_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        android:layout_marginBottom="30dp"/>
+
+
+    <EditText
+        android:id="@+id/booktime3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint=" Enter Time"
+        android:textColorHint="#808080"
+        android:inputType="text"
+        android:focusable="false"
+        android:textColor="#483C32"
+        android:paddingLeft="20dp"
+        android:background="@drawable/levender_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <EditText
+        android:id="@+id/bookphone3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="  Enter Phone No"
+        android:inputType="text"
+        android:textColor="#483C32"
+        android:textColorHint="#808080"
+        android:paddingLeft="20dp"
+        android:background="@drawable/levender_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/bookbtn3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:textColor="#E2DFD2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

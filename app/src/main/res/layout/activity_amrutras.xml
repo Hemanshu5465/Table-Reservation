@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2DFD2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="@color/toolbar"
+        app:logo="@drawable/outline_table_bar_24"
+        app:title="Dineout"
+        app:titleMarginStart="30dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"/>
+
+    <TextView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupRedirectText"
+        android:text="2 Seat Tables >>>"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#483C32" />
+
+    <ImageView
+        android:id="@+id/amrutras_2seat_table1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_2seat_table2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_2seat_table3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupRedirectText1"
+        android:text="4 Seat Tables >>>"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:textSize="20dp"
+        android:textColor="#483C32"
+        />
+
+
+    <ImageView
+        android:id="@+id/amrutras_4seat_table1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_4seat_table2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_4seat_table3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupRedirectText3"
+        android:text="6 Seat Tables >>>"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textColor="#483C32" />
+
+    <ImageView
+        android:id="@+id/amrutras_6seat_table1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_6seat_table2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+    <ImageView
+        android:id="@+id/amrutras_6seat_table3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/levender_border"
+        android:src="@drawable/table"
+        android:backgroundTint="#483C32"/>
+
+</RelativeLayout>
+

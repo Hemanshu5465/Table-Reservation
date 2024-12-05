@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lr">
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back."
+        android:fontFamily="sans-serif-black"
+        android:layout_marginRight="-6dp"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:textSize="18sp"
+        android:textColor="#483C32"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/w"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:textColor="#483C32"/>
+
+    <TextView
+        android:layout_below="@id/w"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter login details below"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#483C32"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/levender_border"
+        android:drawableLeft="@drawable/baseline_person_pin_24"
+        android:drawablePadding="8dp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/levender_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/login_button"
+                android:text="Login"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:backgroundTint="#483C32"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupRedirectText"
+                android:text="Create a New Account"
+                android:gravity="center"
+                android:layout_marginTop="550dp"
+                android:textSize="18sp"
+                android:textColor="#483C32"/>
+
+
+</RelativeLayout>

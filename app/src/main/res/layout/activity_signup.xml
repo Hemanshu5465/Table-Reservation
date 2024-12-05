@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/lr">
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our place your joy"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginRight="-7dp"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:textSize="18sp"
+        android:textColor="#483C32"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create New "
+                android:textAlignment="center"
+                android:textColor="#483C32"
+                android:textSize="25dp"
+                android:layout_marginTop="235dp"
+                android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textAlignment="center"
+        android:textColor="#483C32"
+        android:textSize="25dp"
+        android:layout_marginTop="265dp"
+        android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/signup_name"
+                android:background="@drawable/levender_border"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="8dp"
+                android:hint="Name"
+                android:textColorHint="#808080"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/signup_email"
+                android:background="@drawable/levender_border"
+                android:layout_marginTop="380dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="8dp"
+                android:hint="Email"
+                android:textColorHint="#808080"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/signup_username"
+                android:background="@drawable/levender_border"
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="8dp"
+                android:hint="Username"
+                android:textColorHint="#808080"
+                android:drawableLeft="@drawable/baseline_person_pin_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/signup_password"
+                android:background="@drawable/levender_border"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#808080"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/signup_button"
+                android:text="Sign up"
+                android:textColor="#E2DFD2"
+                android:textSize="18sp"
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:backgroundTint="#483C32"/>
+
+                <ImageView
+                    android:id="@+id/google"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="665dp"
+                    android:layout_marginLeft="80dp"
+                    android:src="@drawable/google"/>
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="665dp"
+                    android:layout_marginLeft="160dp"
+                    android:src="@drawable/facebook"/>
+
+                <ImageView
+                    android:id="@+id/x"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="665dp"
+                    android:layout_marginLeft="240dp"
+                    android:src="@drawable/x"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="Already an user? Login"
+                android:gravity="center"
+                android:layout_marginTop="625dp"
+                android:textSize="18sp"
+                android:layout_marginRight="5dp"
+                android:textColor="#483C32"/>
+
+
+</RelativeLayout>

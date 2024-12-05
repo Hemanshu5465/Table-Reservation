@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback"
+    android:background="#E2DFD2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/toolbar"
+        android:background="@color/toolbar"
+        app:logo="@drawable/outline_table_bar_24"
+        app:title="Dineout"
+        app:titleMarginStart="30dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:layout_below="@id/toolbar"
+        android:id="@+id/ed1"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint=" Give Your FeedBack"
+        android:inputType="text"
+        android:textColor="#483C32"
+        android:padding="10dp"
+        android:background="@drawable/levender_border"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/bb1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Send FeedBack"
+        android:textColor="@color/white"
+        android:layout_below="@id/ed1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"/>
+
+
+</RelativeLayout>
